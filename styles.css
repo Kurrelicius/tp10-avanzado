@@ -1,0 +1,18 @@
+body{
+    font-family: sans-serif;
+}
+#tabla{
+    background-color: aqua;
+    cursor: pointer;
+}
+ul{
+    background-color: aqua;
+    width: 100px;
+    cursor: pointer;
+}
+.tr12{
+    cursor: pointer;
+}
+#btn{
+    cursor: pointer;
+}
