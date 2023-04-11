@@ -312,7 +312,7 @@ document.getElementById("btn1").addEventListener("click", function(){
 
 
 function tamañoFuente2(){
-    let noti1 = document.querySelector("div.noticia1");
+    let noti1 = document.querySelector("div.noticia2");
     let fuenteActual = window.getComputedStyle(noti1, null).getPropertyValue("font-size");
     let fuenteNueva = parseInt(fuenteActual) + 2 + "px";
     noti1.style.fontSize = fuenteNueva;
@@ -395,6 +395,3 @@ palabraSiete.addEventListener("click", (e)=>{
     e.preventDefault();
     document.getElementById("palabra7").style.display="none";
 });
-
-
-
